@@ -99,7 +99,7 @@ header ul li a:hover {
   background: var(--parrafos);
   display: grid;
   justify-self: center;
-  grid-template-columns: repeat(auto-fit, minmax(18.em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18.75em, 1fr));
   width: 80em;
 }
 
@@ -473,9 +473,27 @@ footer #redes p {
   }
 
   .grid .header h1 {
-      font-size: 1.8em;
+      font-size: 1.2em;
       color: var(--titulos);
       width: 5.1em;
+  }
+
+  .grid .album {
+    width: 96%;
+  }
+  
+  .grid .album .box4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .grid .album .box5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .grid .album p {
